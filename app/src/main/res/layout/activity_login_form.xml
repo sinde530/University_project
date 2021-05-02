@@ -13,7 +13,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="64dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,16 +21,16 @@
         app:srcCompat="@drawable/ch" />
 
     <EditText
-        android:id="@+id/idBtn"
+        android:id="@+id/StuNumBtn"
         android:drawableLeft="@drawable/userdesign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="85dp"
         android:layout_marginTop="41dp"
         android:ems="10"
         android:gravity="start|top"
         android:hint="@string/prompt_email"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:inputType="textEmailAddress"
         android:maxLines="1"
         android:singleLine="true"
@@ -38,33 +38,35 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView1" />
 
     <EditText
-        android:id="@+id/pwBtn"
+        android:id="@+id/PwBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="85dp"
         android:layout_marginTop="15dp"
         android:ems="10"
         android:gravity="start|top"
         android:drawableLeft="@drawable/userpassword"
         android:hint="@string/prompt_password"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:inputType="textPassword"
         android:maxLines="1"
         android:singleLine="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/StuNumBtn" />
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:text="@string/action_sign_in"
+        android:textSize="20dp"
+        android:gravity="center|top"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pwBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/PwBtn" />
 
     <TextView
         android:id="@+id/rebtn"

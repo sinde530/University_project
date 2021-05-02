@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_arry">
+        <item>간호학과</item>
+        <item>안경광학과</item>
+        <item>물리치료과</item>
+        <item>응급구조과</item>
+        <item>치위생과</item>
+        <item>병원의료정보과</item>
+        <item>뷰티미용과</item>
+        <item>호텔조리영양학부</item>
+        <item>재활스포츠과</item>
+        <item>유아교육과</item>
+        <item>사회복지과</item>
+        <item>경찰경호무도과</item>
+        <item>세무회계과</item>
+        <item>부동산과</item>
+        <item>군사학과</item>
+        <item>호텔항공서비스과</item>
+        <item>컴퓨터정보융합과</item>
+        <item>전기제어과</item>
+        <item>소방안전관리과</item>
+        <item>웹툰콘텐츠학과</item>
+    </string-array>
+</resources>
