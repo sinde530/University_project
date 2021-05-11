@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">University_project</string>
+    <string name="app_name">청암대학교</string>
     <string name="title_activity_login">로그인</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>

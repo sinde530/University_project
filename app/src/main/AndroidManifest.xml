@@ -9,14 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForGotPassword">
-        </activity>
+        <activity android:name=".SideBar"></activity>
+        <activity android:name=".ForGotPassword"></activity>
         <activity
-            android:name=".registerpopup" android:theme="@style/Theme.AppCompat.Dialog">
-        </activity>
+            android:name=".registerpopup"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
         <activity android:name=".RegisterForm" />
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".LoginForm"
             android:label="@string/title_activity_login">
